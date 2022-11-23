@@ -1,17 +1,24 @@
 # Lab2-GeometryApplicationsInInformatics
 
-Scrie ̧ti un program în Python care s a determine imaginea unui poligon în plan printr-o reflexie fata de o dreapta data.
+Write a program in Python that determines the image of a polygon in the plane by a reflection from a given line.
 
-Considera ̧ti atât dreapta data prin ecuatia generala (datele de intrare vor fi coeficientii ecuatiei).  
+Consider both the given line by the general equation (the input data will be the coefficients of the equation).
 
-Programul trebuie sa contina urmatorii pasi:
+The program must contain the following steps:
 
-1.  determinarea punctului de intersectie dintre dreapta  ̧si una dintre axe;
-2.  determinarea matricii translatiei care face dreapta sa treaca prin origine;
-3.  determinerea matricii rotatiei fata de origine care face ca dreapta sa se suprapuna peste una dintre axe;
-4.  determinarea matricii reflexiei fata de axa de coordonate aleasa
-5.  determinarea matricii rotatiei fata de origine care aduce dreapta la directia initiala;
-6.  determinarea matricii translatiei care aduce dreapta în pozitia initiala;
-7.  determinarea matricii transformarii, prin înmultirea celor 5 matrici precedente.
-8.  citirea vârfurilor poligonului;
-9.  stabilirea matricii omogene a coordonatelor vârfurilor poligonului transformat.
+determine the point of intersection between the line ̧and one of the axes;
+
+determination of the matrix of the translation that makes the line pass through the origin;
+
+determination of the rotation matrix with respect to the origin that makes the line overlap one of the axes;
+
+determining the matrix of the reflection from the chosen coordinate axis;
+
+determination of the rotation matrix with respect to the origin that brings the line to the initial direction;
+
+determination of the translation matrix which brings the line to the initial position;
+
+determination of the transformation matrix, by multiplying the 5 previous matrices.
+reading the vertices of the polygon;
+
+determining the homogeneous matrix of the coordinates of the vertices of the transformed polygon.
